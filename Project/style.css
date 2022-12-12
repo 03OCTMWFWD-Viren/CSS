@@ -1,0 +1,45 @@
+button{
+    text-indent: 10px;
+}
+.koibhi{
+    padding: 0px;
+    text-indent: 60px;
+    margin: 10px;
+}
+.u{
+    padding: 15px;
+    width: 36%;
+}
+.b{
+    padding: 15px;
+    width: 10%;
+}
+.ub{
+    padding: 15px;
+    width: 5%;
+}
+i{
+    text-indent: 30px;
+    padding: 40px;
+    word-spacing: 10px;
+    font-size: 30px;
+}
+p{
+    font-size:large;
+}
+h2{
+    font-size: 60px;
+    padding: 0px;
+    text-indent: 10px;
+    margin: 55px;
+}
+body{
+    background-image: url(../Project/Image/9b21aa66b4922ae2\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
