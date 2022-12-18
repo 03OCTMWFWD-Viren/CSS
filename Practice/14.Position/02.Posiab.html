@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 800px;
+            margin: 0 auto;
+        }
+
+        .row {
+            display: flex;
+            gap: 20px;
+        }
+
+        .col-33 {
+            width: 50%;
+            position: relative;
+        }
+
+        img {
+            width: 70%;
+        }
+
+        .posi-ab {
+            width: 80px;
+            height: 70px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-33">
+                <img src="../../../HTML/Image/mahadev.jpg" alt="">
+                <img src="../../../HTML/Image/shree ram.jpg" class="posi-ab" alt="">
+            </div>
+            <div class="col-33">
+                <img src="../../../HTML/Image/mahadev.jpg" alt="">
+                <img src="../../../HTML/Image/shree ram.jpg" class="posi-ab" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-33">
+                <img src="../../../HTML/Image/mahadev.jpg" alt="">
+                <img src="../../../HTML/Image/shree ram.jpg" class="posi-ab" alt="">
+            </div>
+            <div class="col-33">
+                <img src="../../../HTML/Image/mahadev.jpg"  alt="">
+                <img src="../../../HTML/Image/shree ram.jpg" class="posi-ab" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-33">
+                <img src="../../../HTML/Image/mahadev.jpg" alt="">
+                <img src="../../../HTML/Image/shree ram.jpg" class="posi-ab" alt="">
+            </div>
+            <div class="col-33">
+                <img src="../../../HTML/Image/mahadev.jpg" alt="">
+                <img src="../../../HTML/Image/shree ram.jpg" class="posi-ab" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
