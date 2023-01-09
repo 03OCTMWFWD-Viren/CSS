@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+            font-size: 40px;
+        }
+        h2{
+            font-size: 25px;
+        }
+        p{
+            font-size: 18px;
+        }
+        hr{
+        height: 1px;
+        background: linear-gradient(black, rgb(47, 0, 255));
+        }
+         /* * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      } */
+      .container {
+        width: 1400px;
+        margin: 0 auto;
+        padding-top: 70px;
+      }
+      .con-wra h3 {
+        padding: 80px 60px;
+        background-color: #333;
+      }
+      .row {
+        display: flex;
+        gap: 30px;
+      }
+      .col-33 {
+        width: 33.33%;
+        border: 1px solid black;
+      }
+      h3 {
+        color: white;
+        text-align: center;
+      }
+      .row p{
+        color: rgb(22, 15, 15);
+        line-height: 30px;
+      }
+      .con-wra p {
+        background-color: white;
+        padding: 0px 15px 0px 15px;
+      }
+      button {
+        padding: 8px 20px 8px 20px;
+        margin: 8px 0px 15px 15px;
+      }
+    </style>
+</head>
+<body>
+    <h1>MODUL: 2 (CSS and CSS 3)</h1>
+    <hr>
+    <h2>1)What are the benifits of using CSS?</h2>
+    <p>CSS -Cascading Style Sheets (CSS) </p>
+    <p>CSS is language used to describe the presentation of a document written in HTML </p>
+    <p>CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.</p>
+    <img src="../images/advantages of css.jpg" alt="" width="50%" height="350px">
+    <hr>
+    <h2>2)What are the disadvantages of CSS?</h2>
+    <p>Confusion due to many CSS levels. Beginners are more vulnerable to this issue.</p>
+    <p>Cross-Browser Issues. Different browsers work differently.</p>
+    <p>Security Issues. Security is important in today's world driven by technology and data.</p>
+    <p>Extra Work for Developers.</p>
+    <img src="../images/disadvantages-of-css.webp" alt="" width="50%" height="350px">
+    <hr>
+    <h2>3)What is the difference between CSS2 and CSS3?</h2>
+    <p>CSS2 was released in 1998 with added styles for other media types so that it can be used for page layout designing.</p>
+    <p>CSS2 which was comprised of a single document.</p>
+    <p>CSS2 had 'simple selectors'</p>
+    <p>CSS3 was released in 1999 and presentation-style properties were added in it that allows you to build a presentation from documents.</p>
+    <p>CSS3 has its specifications divided into many individual modules.</p>
+    <p>CSS3 calls the components as 'a sequence of simple selectors'.</p>
+    <img src="../images/css2_vs_cc3.webp" alt="" width="50%" height="600px">
+    <hr>
+    <h2>4)Name a few CSS style components?</h2>
+    <p>At its most basic level, CSS consists of two components</p>
+    <p>Properties: These are human-readable identifiers that indicate which stylistic features you want to modify. For example, font-size , width , background-color.</p>
+    <p>Values: Each property is assigned a value. This value indicates how to style the property.</p>
+    <hr>
+    <h2>5)What do you understand by CSS opacity?</h2>
+    <p>The opacity CSS property sets the opacity of an element.</p>
+    <p>Opacity is the degree to which content behind an element is hidden, and is the opposite of transparency.</p>
+    <p>The opacity() is an inbuilt function which is used to apply a filter to the image to set the transparency of the image.</p>
+    <img src="../images/CSS-Opacity.webp" alt="" width="50%" height="600px">
+    <hr>
+    <h2>6)How can the background color of an element be changed?</h2>
+    <p>To add background color in HTML, use the CSS background-color property.</p>
+    <p>Set it to the color name or code you want and place it inside a style attribute.</p>
+    <p>Then add this style attribute to an HTML element, like a table, heading, div, or span tag.</p>
+    <p>Adding a background color can help a certain element stand out on the page, making it more readable.</p>
+    <hr>
+    <h2>7)How can image repetition of the backup be controlled?</h2>
+    <p>To control the repetition of an image in the background, use the background-repeat property.</p>
+    <p>The background-repeat property in CSS is used to repeat the background image both horizontally and vertically. It also decides whether the background image will be repeated or not.</p>
+    <p>You can use no-repeat value for the background-repeat property if you do not want to repeat an image.</p>
+    <hr>
+    <h2>8)What is the use of background-position property?</h2>
+    <p>The background-position CSS property sets the initial position for each background image.</p>
+    <p> relative to the background position layer defined by background-origin.</p>
+    <p>The background-image is placed default to the top-left corner of an element with a repetition on both horizontally & vertically.</p>
+    <img src="../images/background position property.png" alt="" width="50%" height="550px">
+    <hr>
+    <h2>9)Which property controls the image scroll in the background?</h2>
+    <p>The background-attachment CSS property sets whether a background image's position is fixed within the viewport, or scrolls with its containing block.</p>
+    <p>This property has three values scroll, fixed, and local. Its default value is scroll.</p>
+    <p>The local value of this property causes the element to scroll with the content. If we set the value to fixed, the background image will not move during scrolling in the browser.</p>
+    <p>scroll: It is the default value that prevents the element from scrolling with the contents, but scrolls with the page.</p>
+    <hr>
+    <h2>10)Why should background and color be used as separate properties?</h2>
+    <p>Background property is a complex property.</p>
+    <p>while color is inherited property.</p>
+    <hr>
+    <h2>11)How to center block elements using CSS1?</h2>
+    <p>To horizontally center a block element, use margin: auto</p>
+    <p>There are two steps to center a block-level element.</p>
+    <p>Step 1: Define the external width.</p>
+    <p>Step 2: Set the left-margin and the right-margin of the element to auto.</p>
+    <img src="../images/block element center.png" alt="" width="50%" height="300px">
+    <hr>
+    <h2>12)How to maintain the CSS specifications?</h2>
+    <p>The Specification defines how CSS properties should be implemented by browser vendors along with detailed algorithms, code samples and tabular information.</p>
+    <p>The Specification also include:
+        The syntax and data types of the language
+        Detailed explanation on CSS Selectors
+        How you can assign values to properties
+        The Cascade (the "C" in CSS)
+        How inheritance works
+        The Box Model e.t.c</p>
+    <P>The Specification also specify how stylesheets can be included in your web document and how to target specific media e.g print or screen.</P>
+    <hr>
+    <h2>13)What are the ways to integrate CSS as a web page?</h2>
+    <p>There are three ways you can use to implement CSS as a web page</p>
+    <p>1-Inline - by using the style attribute inside HTML elements.</p>
+    <p>2-Internal - by using a <style.> element in the <.head> section.</p>
+    <p>3-External - by using a <.link> element to link to an external CSS file.</p>
+    <img src="../images/types-of-css.png" alt="" width="50%" height="300px">
+    <hr>
+    <h2>14)What is embedded style sheets?</h2>
+    <p>Embedded Stylesheet: It allows you to define styles for a particular HTML document as a whole in one place.</p>
+    <p>This is done by embedding the <style.></.style> tags containing the CSS properties in the head of your document</p>
+    <p> Embedded style sheets are particularly useful for HTML documents that have unique style requirements from the rest of the documents in your project.</p>
+    <p>Using embedded stylesheets holds a distinct advantage over inline styles which only allow you to address one HTML element at a time.</p>
+    <img src="../images/Embedded+Style+Sheet+Using+a+Style+Element+In-Class+exercise_.jpg" alt="" width="50%" height="350px">
+    <hr>
+    <h2>15)What are the external style sheets?</h2>
+    <p>The <.link> HTML element specifies relationships between the current document and an external resource. </p>
+    <p>Multiple webpages can use the same link to access the stylesheet.</p>
+    <p>This simple example provides the path to the stylesheet inside an href attribute, and a rel attribute with a value of stylesheet.</p>
+    <img src="../images/external style sheet.png" alt="" width="50%" height="350px">
+    <hr>
+    <h2>16)What are the advantage and disadvantages of using external style sheets?</h2>
+    <p><b>Advantage</b></p>
+    <p>With the help of External Style Sheets, the styles of numerous documents can be organized from one single file.</p>
+    <p>In External Style Sheets, Classes can be made for use on numerous HTML element types in many forms of the site.</p>
+    <p>In complex contexts, Methods like selector and grouping can be implemented to apply styles.</p>
+    <p><b>Disadvantages</b></p>
+    <p>An extra download is essential to import style information for each file.</p>
+    <p>The execution of the file may be deferred till the external style sheet is loaded.</p>
+    <p>While implementing style sheets, we need to test Web pages with multiple browsers in order to check compatibility issues.</p>
+    <img src="../images/_advantages__disadvantages_of_css.png" alt="" width="50%" height="300px">
+    <hr>
+    <h2>17)What is the meaning of the CSS selector?</h2>
+    <p>A CSS selector is the first part of a CSS Rule. It is a pattern of elements and other terms that tell the browser which HTML elements should be selected to have the CSS property values inside the rule applied to them.</p>
+    <p>CSS selectors are used to "find" (or select) the HTML elements you want to style.</p>
+    <img src="../images/css-selectors-2-320.webp" alt="" width="50%" height="450px">
+    <hr>
+    <h2>18)What are the media types allowed by CSS?</h2>
+    <p>Media queries allow you to apply CSS styles depending on a device's general type (such as print vs. screen) or other characteristics such as screen resolution or browser viewport width.</p>
+    <p>width,
+       overflow-block,
+       overflow-inline,
+       grid,
+       height,
+       hover,
+       display-mode,
+       any-hover,
+       color,
+       color-index.
+    </p>
+    <p>continuous or paged.
+        visual, audio, speech, or tactile.
+        grid (for character grid devices), or bitmap.
+        interactive (for devices that allow user interaction), or static (for those that do not).
+        all (includes all media types)</p>
+    <hr>
+    <h2>19)What is the rule set?</h2>
+    <p>Rulesets are the main building blocks of a style sheet, which often consists of only a big list of them.</p>
+    <p>The objective is to apply a bunch of properties for certain distinct qualities to a solitary.</p>
+    <img src="../images/css-ruleset-terminology.webp" alt="" width="50%" height="220px">
+    <hr>
+    <h2>20)Create Layouts</h2>
+    <header id="header">
+        <div class="header-wra">
+          <div class="container">
+            <div class="con-wra">
+              <div class="row">
+                <div class="col-33">
+                  <h3>Thumbnail</h3>
+                  <p>
+                    This is a wider card with supporting text below as a natural
+                    lead in to additional content. This content is a litle bit
+                    longer.
+                  </p>
+                  <button>View</button><button>Edit</button>
+                </div>
+                <div class="col-33">
+                  <h3>Thumbnail</h3>
+                  <p>
+                    This is a wider card with supporting text below as a natural
+                    lead in to additional content. This content is a litle bit
+                    longer.
+                  </p>
+                  <button>View</button><button>Edit</button>
+                </div>
+                <div class="col-33">
+                  <h3>Thumbnail</h3>
+                  <p>
+                    This is a wider card with supporting text below as a natural
+                    lead in to additional content. This content is a litle bit
+                    longer.
+                  </p>
+                  <button>View</button><button>Edit</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <footer>
+          <div class="container">
+              <div class="con-wra">
+                <div class="row">
+                  <div class="col-33">
+                    <h3>Thumbnail</h3>
+                    <p>
+                      This is a wider card with supporting text below as a natural
+                      lead in to additional content. This content is a litle bit
+                      longer.
+                    </p>
+                    <button>View</button><button>Edit</button>
+                  </div>
+                  <div class="col-33">
+                    <h3>Thumbnail</h3>
+                    <p>
+                      This is a wider card with supporting text below as a natural
+                      lead in to additional content. This content is a litle bit
+                      longer.
+                    </p>
+                    <button>View</button><button>Edit</button>
+                  </div>
+                  <div class="col-33">
+                    <h3>Thumbnail</h3>
+                    <p>
+                      This is a wider card with supporting text below as a natural
+                      lead in to additional content. This content is a litle bit
+                      longer.
+                    </p>
+                    <button>View</button><button>Edit</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+      </footer>
+      <hr>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        width: 500px;
+        height: 200px;
+      }
+      .linear-gradient {
+        background: linear-gradient(
+          to right,
+          rgb(98, 0, 255),
+          orange,
+          rgb(255, 0, 0),
+          green,
+          rgb(255, 102, 0),
+          rgb(0, 130, 119),
+          violet
+        );
+      }
+      hr {
+        height: 15px;
+        background: linear-gradient(black, white, rgb(47, 0, 255));
+      }
+      .radial-gradient {
+        background: radial-gradient(red, rgb(255, 0, 217), rgb(236, 255, 30));
+      }
+      .conic-gradient {
+        background: conic-gradient(
+          rgb(255, 188, 182),
+          rgb(4, 235, 8),
+          rgb(219, 19, 19)
+        );
+      }
+    </style>
+  </head>
+  <body>
+    <div class="linear-gradient"></div>
+    <hr />
+    <div class="radial-gradient"></div>
+    <hr />
+    <div class="conic-gradient"></div>
+    <hr />
+  </body>
+</html>
